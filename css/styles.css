@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* logo --- font-family: 'Raleway', sans-serif; */
+
+
+.our-team {
+    background-color: #F4F4FD;
+    height: 732px;
+    text-align: center;
+}
+
+.our-team h2 {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.ot-list {
+    display: flex;
+    justify-content: center;
+}
+
+.ot-list li {
+    background-color: #fff;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 1.5;
+    height: 380px;
+    box-shadow: 3px 3px 5px #64646446 ;
+    border-radius: 5px;
+}
+.ot-list h3{
+    margin-top: 32px;
+}
+.ot-list p{
+    margin-bottom: 32px;
+}
