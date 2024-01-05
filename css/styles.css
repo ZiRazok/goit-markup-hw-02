@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +9,21 @@ body {
     color: #2E2F42;
 }
 
+main p {
+    color: #434455;
+    letter-spacing: .32px;
+}
+
+main h3 {
+    font-size: 20px;
+    letter-spacing: .4px;
+}
+
+main h2 {
+    font-size: 36px;
+    letter-spacing: .72px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -16,34 +31,108 @@ ul {
 /* logo --- font-family: 'Raleway', sans-serif; */
 
 
-.our-team {
+
+/* Header Top menu */
+.h-top-menu {
+    display: flex;
+}
+
+.htm-nav {
+    display: flex;
+}
+
+.htmn-list {
+    display: flex;
+}
+
+.htm-address {}
+
+.htma-list {
+    display: flex;
+}
+
+/* Section Title */
+.s-title {
+    height: 600px;
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.s-title h1 {
+    color: #fff;
+    padding-top: 188px;
+    font-size: 56px;
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+}
+
+.s-title .st-btn {
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / .15);
+    letter-spacing: .64px;
+    margin-top: 64px;
+}
+
+
+
+/* Section Organization */
+.s-organization {
+    height: 344px;
+}
+
+.s-organization h2 {
+    display: none;
+}
+
+.s-organization h3 {
+    font-style: 20px;
+}
+
+.so-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.so-list li {
+    width: 264px;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 1.5;
+}
+
+
+
+/* Section Our Team  */
+.s-our-team {
     background-color: #F4F4FD;
     height: 732px;
     text-align: center;
 }
 
-.our-team h2 {
+.s-our-team h2 {
     padding-top: 120px;
     padding-bottom: 72px;
 }
 
-.ot-list {
+.sot-list {
     display: flex;
     justify-content: center;
 }
 
-.ot-list li {
+.sot-list li {
     background-color: #fff;
     margin-left: 12px;
     margin-right: 12px;
     line-height: 1.5;
     height: 380px;
-    box-shadow: 3px 3px 5px #64646446 ;
+    box-shadow: 0 1px 5px #64646446;
     border-radius: 5px;
 }
-.ot-list h3{
+
+.sot-list h3 {
     margin-top: 32px;
-}
-.ot-list p{
-    margin-bottom: 32px;
 }
