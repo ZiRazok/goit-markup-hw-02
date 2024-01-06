@@ -87,7 +87,15 @@ a {
 
 .htmn-list a,
 .htma-list a {
+    line-height: 1.5;
     letter-spacing: .32px;
+}
+
+.htmn-list a:hover,
+.htma-list a:hover,
+.htmn-list a:focus,
+.htma-list a:focus {
+    color: #404BBF;
 }
 
 .htma-list {
@@ -101,6 +109,7 @@ a {
 
 .htma-list a {
     color: #434455;
+    font-style: normal;
 }
 
 
