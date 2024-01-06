@@ -10,12 +10,6 @@ body {
     background-color: #fff;
 }
 
-main p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: .32px;
-}
-
 main h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -29,6 +23,7 @@ main h2 {
     letter-spacing: .72px;
     line-height: 1.11;
     text-transform: capitalize;
+    color: #2E2F42;
 }
 
 ul {
@@ -38,6 +33,12 @@ ul {
 a {
     text-decoration: none;
     color: #2E2F42;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .32px;
 }
 
 
@@ -89,6 +90,7 @@ a {
 .htma-list a {
     line-height: 1.5;
     letter-spacing: .32px;
+    font-weight: 500;
 }
 
 .htmn-list a:hover,
@@ -132,7 +134,7 @@ a {
 
 .st-btn {
     font-family: 'Roboto', sans-serif;
-    font-family: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .64px;
