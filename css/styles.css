@@ -4,22 +4,24 @@ body {
     background-color: #fff;
 }
 
-.s-h1 {
+.s-h-one {
     color: #fff;
     font-size: 56px;
     letter-spacing: 1.12px;
     line-height: 1.07;
+    text-align: center;
 }
 
-.s-h2 {
+.s-h-two {
     font-size: 36px;
     letter-spacing: .72px;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
+    text-align: center;
 }
 
-.s-h3 {
+.s-h-three {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -27,7 +29,7 @@ body {
     letter-spacing: .4px;
 }
 
-p {
+.paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .32px;
@@ -68,6 +70,7 @@ a {
     line-height: 1.5;
     letter-spacing: .32px;
     font-weight: 500;
+    color: #2e2f42;
 }
 
 .htm-address {
@@ -116,14 +119,9 @@ a {
 
 
 /* Section Organization */
-.s-organization h2 {
+/* .s-organization h2 {
     display: none;
-}
-
-.so-list li {
-    line-height: 1.5;
-}
-
+} */
 
 
 
@@ -132,9 +130,8 @@ a {
     background-color: #F4F4FD;
 }
 
-.sot-list li {
+.sotl-element {
     background-color: #fff;
-    line-height: 1.5;
 }
 
 
