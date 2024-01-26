@@ -7,8 +7,8 @@ body {
 .title-main-heading {
     color: #fff;
     font-size: 56px;
-    letter-spacing: 1.12px;
     line-height: 1.07;
+    letter-spacing: .02em;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ body {
 .team-subheading,
 .portfolio-subheading {
     font-size: 36px;
-    letter-spacing: .72px;
+    letter-spacing: .02em;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
@@ -30,7 +30,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: .4px;
+    letter-spacing: .02em;
 }
 
 .organization-paragraph,
@@ -39,7 +39,7 @@ body {
 .footer-paragraph {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: .32px;
+    letter-spacing: .02em;
 }
 
 ul {
@@ -61,7 +61,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: .54px;
+    letter-spacing: .03em;
     color: #4D5AE5;
 }
 
@@ -78,7 +78,7 @@ a {
 /* Header Top menu */
 .nav-link {
     line-height: 1.5;
-    letter-spacing: .32px;
+    letter-spacing: .02em;
     font-weight: 500;
     color: #2e2f42;
 }
@@ -89,7 +89,7 @@ a {
 
 .address-link {
     line-height: 1.5;
-    letter-spacing: .32px;
+    letter-spacing: .03em;
     color: #434455;
 }
 
@@ -113,10 +113,9 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: .64px;
+    letter-spacing: .04em;
     color: #fff;
     background-color: #4D5AE5;
-    letter-spacing: .64px;
     cursor: pointer;
 }
 
